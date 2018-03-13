@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Alex Yi">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Alex Yi</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="card centered profile">
+                <img src="img/profile.jpg" class="img-circle" width="200">
+
+                <h1>Alex Yi</h1>
+                <h5>Software Engineer</h5>
+
+                <div class="icon-bar">
+                    <a href="mailto:alexxyi94@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Contact">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/yialex94" data-toggle="tooltip" data-placement="bottom" title="Github">
+                        <i class="fa fa-github-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yialex94/" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                    <a href="#" id="open-modal" data-toggle="tooltip" data-placement="bottom" title="Resume">
+                        <i class="fa fa-file"></i>
+                    </a>
+                </div>
+                <br>
+            </header>
+
+        <div id="modal" class="modal">
+            <span class="close">×</span>
+            <div class="modal-content" id="resume">
+                <img src="img/resume.jpg">
+                    <p id="captionText">
+                      Click <a href="resume.pdf" download="Alex Yi - Resume">here</a> to download my resume.
+                    </p>
+                </div>
+            <div id="caption"></div>
+        </div>
+
+        <section>
+            <ul id="tabs">
+                <li><a href="#" name="#tab1">About</a></li>
+                <li><a href="#" name="#tab2">Portfolio</a></li>
+            </ul>
+    
+            <div id="content" class="card" style="text-align: left;">
+                <div id="tab1">
+                    <p>
+                        Hello! My name is Alex Yi. I am a passionate and aspiring software engineer, based in Philadelphia, who thrives in an environment that emphasizes collaboration and innovation. I offer a versatile skillset and am eager to improve and learn.
+                    </p>
+                    <p>
+                        In my spare time, you can find me playing sports (basketball & volleyball), cooking for friends, and exploring all the great things Philadelphia has to offer.
+                    </p>
+                </div>
+    
+                <div id="tab2">
+                    <div class="project">
+                        <h4>▸ <a href="https://obscure-reef-88547.herokuapp.com/">YelpCamp</a></h4>
+                        <div>
+                            <b>Role:</b> Sole Developer
+                            <br><br>
+                            <b>Description:</b> YelpCamp is a platform where users can share, discover, and dicuss their favorite campgrounds.
+                            <br><br>
+                            <b>Tech Stack:</b> Full-stack application programmed in HTML5, CSS3, JavaScript, and jQuery powered on a mongoDB, express, and nodejs back-end.
+                            <br><br>
+                            <p>
+                                Click <a href="https://github.com/yialex94/YelpCamp">here</a> to view the code on GitHub!</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <footer>Last editied on February 13, 2018</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
